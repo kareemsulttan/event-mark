@@ -1,0 +1,76 @@
+/* ============================================ *
+  Fonts
+ * ============================================ */
+
+ @font-face {
+    font-family: 'WebbEllisCup-Bold';
+    src: url('../fonts/WebbEllisCup-Bold.eot');
+    src: url('../fonts/WebbEllisCup-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/WebbEllisCup-Bold.woff2') format('woff2'),
+         url('../fonts/WebbEllisCup-Bold.woff') format('woff'),
+         url('../fonts/WebbEllisCup-Bold.ttf')  format('truetype'),
+         url('../fonts/WebbEllisCup-Bold.svg#Webb Ellis Cup') format('svg');
+  }
+  @font-face {
+    font-family: 'WebbEllisCup-BoldItalic';
+    src: url('../fonts/WebbEllisCup-BoldItalic.eot');
+    src: url('../fonts/WebbEllisCup-BoldItalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/WebbEllisCup-BoldItalic.woff2') format('woff2'),
+         url('../fonts/WebbEllisCup-BoldItalic.woff') format('woff'),
+         url('../fonts/WebbEllisCup-BoldItalic.ttf')  format('truetype'),
+         url('../fonts/WebbEllisCup-BoldItalic.svg#Webb Ellis Cup') format('svg');
+  }
+  @font-face {
+    font-family: 'WebbEllisCup-Heavy';
+    src: url('../fonts/WebbEllisCup-Heavy.eot');
+    src: url('../fonts/WebbEllisCup-Heavy.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/WebbEllisCup-Heavy.woff2') format('woff2'),
+         url('../fonts/WebbEllisCup-Heavy.woff') format('woff'),
+         url('../fonts/WebbEllisCup-Heavy.ttf')  format('truetype'),
+         url('../fonts/WebbEllisCup-Heavy.svg#Webb Ellis Cup') format('svg');
+  }
+  @font-face {
+    font-family: 'WebbEllisCup-HeavyItalic';
+    src: url('../fonts/WebbEllisCup-HeavyItalic.eot');
+    src: url('../fonts/WebbEllisCup-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/WebbEllisCup-HeavyItalic.woff2') format('woff2'),
+         url('../fonts/WebbEllisCup-HeavyItalic.woff') format('woff'),
+         url('../fonts/WebbEllisCup-HeavyItalic.ttf')  format('truetype'),
+         url('../fonts/WebbEllisCup-HeavyItalic.svg#Webb Ellis Cup') format('svg');
+  }
+  @font-face {
+    font-family: 'WebbEllisCup-Italic';
+    src: url('../fonts/WebbEllisCup-Italic.eot');
+    src: url('../fonts/WebbEllisCup-Italic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/WebbEllisCup-Italic.woff2') format('woff2'),
+         url('../fonts/WebbEllisCup-Italic.woff') format('woff'),
+         url('../fonts/WebbEllisCup-Italic.ttf')  format('truetype'),
+         url('../fonts/WebbEllisCup-Italic.svg#Webb Ellis Cup') format('svg');
+  }
+  @font-face {
+    font-family: 'WebbEllisCup-Light';
+    src: url('../fonts/WebbEllisCup-Light.eot');
+    src: url('../fonts/WebbEllisCup-Light.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/WebbEllisCup-Light.woff2') format('woff2'),
+         url('../fonts/WebbEllisCup-Light.woff') format('woff'),
+         url('../fonts/WebbEllisCup-Light.ttf')  format('truetype'),
+         url('../fonts/WebbEllisCup-Light.svg#Webb Ellis Cup') format('svg');
+  }
+  @font-face {
+    font-family: 'WebbEllisCup-LightItalic';
+    src: url('../fonts/WebbEllisCup-LightItalic.eot');
+    src: url('../fonts/WebbEllisCup-LightItalic.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/WebbEllisCup-LightItalic.woff2') format('woff2'),
+         url('../fonts/WebbEllisCup-LightItalic.woff') format('woff'),
+         url('../fonts/WebbEllisCup-LightItalic.ttf')  format('truetype'),
+         url('../fonts/WebbEllisCup-LightItalic.svg#Webb Ellis Cup') format('svg');
+  }
+  @font-face {
+    font-family: 'WebbEllisCup-Regular';
+    src: url('../fonts/WebbEllisCup-Regular.eot');
+    src: url('../fonts/WebbEllisCup-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/WebbEllisCup-Regular.woff2') format('woff2'),
+         url('../fonts/WebbEllisCup-Regular.woff') format('woff'),
+         url('../fonts/WebbEllisCup-Regular.ttf')  format('truetype'),
+         url('../fonts/WebbEllisCup-Regular.svg#Webb Ellis Cup') format('svg');
+  }

@@ -1,0 +1,541 @@
+/* ============================================ *
+ - Project Name: RWC23
+ - Page Name: Marks
+ - Date: 22/5/2020
+ - Framework: Bootstrap v 3
+ - Description: Responsive web page - PDF to HTMl
+ * ============================================ */
+
+
+/* ============================================ *
+ * Reset
+ * ============================================ */
+
+ *,
+ *:before,
+ *:after { 
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* ============================================ *
+ * Elements Default Style
+ * ============================================ */
+
+html { -webkit-tap-highlight-color: rgba(0, 0, 0, 0); -webkit-text-size-adjust: 100%; }
+body  {background:#fff; font:14px/1.35 'WebbEllisCup-Regular'; color:#2d3aff; text-align: left; -moz-osx-font-smoothing: grayscale; -webkit-font-smoothing: antialiased; }
+img { border: 0 none; -ms-interpolation-mode: bicubic; vertical-align: top; max-width: 100%; }
+a { color:#000; text-decoration:none; }
+a:hover { text-decoration:none; }
+:focus { outline:0; }
+h1,h2,h3,h4,h5 { font-family: WebbEllisCup-Heavy; text-transform: uppercase;margin: 0; color: #2c3aff; }
+h2 { font-size: 42.4px; }
+h1,h2 { margin-bottom: 43px; }
+h5 { font-size: 15.2px; margin-bottom: 20px; }
+h6 { font-family: 'WebbEllisCup-bold'; font-size: 13px; margin: 23px 0 17px 0; }
+.no-padding { padding:0!important }
+.no-left-padding { padding-left:0!important }
+.no-right-padding { padding-right:0!important }
+.no-margin { margin: 0!important; }
+.gray-bg { background-color: #efefef; }
+.big-size { font-size: 22px; }
+.light { font-family: 'WebbEllisCup-light'; font-size: 13px; line-height: 1.27; }
+.p-bottom-space { margin-bottom: 45px; }
+.img-bottom-space { margin-bottom: 56px; }
+.main-white-color h1,
+.main-white-color h2,
+.main-white-color h4,
+.main-white-color h5,
+.main-white-color h6,
+.main-white-color p {
+  color:#fff!important;
+}
+.blue-bg {
+  background-color: #2c3aff;
+}
+.bg-style {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+.section-bottom-space {
+  margin-bottom: 85px;
+  overflow: hidden;
+}
+button {
+  color: #fe2f01;
+  border: 0;
+  outline: none;
+  border-radius: 7px;
+  background: #fff;
+  font-family: WebbEllisCup-bold;
+  padding: 10px 16px;
+ }
+
+/* ============================================ *
+ * Page style - header
+ * ============================================ */
+
+ @media (min-width: 1200px) {
+  .container {
+      width: 1033px;
+      padding-left: 22px;
+    }
+  }
+  @media screen and (max-width:991px) and (min-width:767px) {
+    .tab-bottom-space {
+      margin-bottom: 30px;
+    }
+    .cut-downs .cut-downs-3-img > img {
+      margin-bottom: 50px;
+    }
+  }
+
+   /* header style */
+
+   header {
+     background-color: #fe2f01;
+     padding-top: 100px;
+     padding-bottom: 72px;
+     overflow: hidden;
+   }
+   header .title h1 {
+    font-size: 83px;
+    line-height: 0.8;
+   }
+   header .title h4 {
+    font-size: 22.3px;
+    line-height: 1.2;
+    font-family: 'WebbEllisCup-heavy';
+    text-transform: none;
+    padding-bottom:30px;
+   }
+   .download {
+     padding: 4px 5px;
+   }
+   @media (max-width: 767px) {
+    header .title h1 {
+      font-size: 50px;
+    }
+    header .title h4 {
+      font-size: 13px;
+    }
+   }
+   @media (max-width: 768px) {
+    header,section,footer {
+      padding-left: 0;
+      padding-top: 40px!important;
+      padding-bottom: 40px!important;
+    }
+   }
+   @media (max-width: 991px) {
+    .download button {
+      margin-left: 11px;
+    }
+   }
+
+  /* section-1 strength*/
+
+   section,footer {
+    padding: 100px 0 100px 0;
+   }
+   .section-1 {
+     padding-bottom: 0!important;
+   }
+   .red-ref {
+    color: #ff3407d1;
+    position: relative;
+    font-family: 'WebbEllisCup-heavy';
+    font-size: 15.4px;
+    display: inline-block;
+    border-bottom: 4px solid #ff3407d1;
+    margin-bottom: 106px;
+   }
+   .red-line {
+    height: 20px;
+    background-color: #ff2e00;
+    border-radius: 15px;
+   }
+   .section-1 .red-line {
+    margin-top: 16px;
+   }
+
+  /* section-1 tabs*/
+
+  .nav-tabs { 
+    border-bottom: none;
+  }
+  .buttons button {
+    background: #ff2e00;
+  }
+  .buttons > .buttons-1 {
+    background: transparent;
+    padding: 10px 20px;
+    border-radius: 11px;
+    border: 1px solid #ff2e00;
+    margin-right: 23px;
+  }
+  @media (min-width: 1199px) {
+    .buttons > .buttons-1 {
+      margin: 0 23px 0 39px;
+    }
+  }
+  .buttons .buttons-2 {
+    color: #fff;
+    padding: 10px 29px;
+  }
+
+  /* tabs style */
+
+  .tabs .nav-tabs {
+    margin-top: 20px;
+    margin-bottom: 27px;
+  }
+  .tabs .nav-tabs > li > a {
+    border: none;
+    border-radius: 0;
+    font-family: 'WebbEllisCup-bold';
+    color: #737373;
+    margin: 10px 32px;
+    font-size: 16px;
+    padding: 0;
+  }
+  .tabs .tab-content #timing > div > p:first-child {
+    margin-bottom: 45px;
+  }
+  @media (max-width: 600px) {
+    .tabs .nav-tabs > li {
+      width: 100%;
+    }
+  }
+  .tabs .nav-tabs > li > a:first-child {
+    margin-left: 17px;
+  }
+  .tabs .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #2c3aff;
+    background-color: transparent;
+    border: none;
+    border-bottom: 4px solid #ff3000;
+    padding-bottom: 5px;
+  }
+  .tabs .nav-tabs > li > a:hover, .nav > li > a:focus {
+    background-color: transparent;
+  }
+  @media(max-width:991px) {
+    .tabs #colourways .colourways-img-2 {
+      margin-bottom: 20px;
+    }
+  }
+
+  /* file-type section */
+
+  .file-types {
+    background-color: #ff2e00;
+  }
+  .section-title {
+    margin-bottom: 40px;
+    overflow: hidden;
+  }
+  .section-title h2 {
+    margin-bottom: 36px;
+  }
+  .section-title p {
+    font-family: 'WebbEllisCup-light';
+    letter-spacing: 0.1px;
+  }
+  .file-types .types {
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .file-types .types > div {
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    flex-grow: 1;
+    flex-basis: 25%;
+    padding: 20px 0;
+  }
+  .file-types .types > div.third-plus {
+    flex-basis: 0%;
+    margin-left: 27px;
+  }
+  .file-types .types > div:not(.plus) {
+    border: 2px solid #fff;
+    border-top-left-radius: .5em .9em;
+    border-top-right-radius: .5em .9em;
+    border-bottom-right-radius: .5em .9em;
+    border-bottom-left-radius: .5em .9em;
+  }
+  .file-types .types > div.png-svg {
+    color: #ff2e00;
+    background-color: #fff;
+  }
+  .file-types .second-column .second-column-space {
+    margin-top: 65px!important;
+  }
+  .file-types .second-column .types > div:not(.plus) {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+  }
+  .file-types .second-column .types > div.third-plus {
+    margin-left: 33px;
+  }
+  @media (min-width:991px) {
+  .top-space {
+    margin-bottom: 154px;
+    }
+  }
+  .file-types .fourth-column h5 {
+    font-size: 15px;
+  }
+  .file-types .fourth-column .types-details h6:first-child {
+    margin-bottom: 0;
+  }
+  .file-types .fourth-column .types-details h6:nth-of-type(2) {
+    margin-top: 0;
+  }
+  .file-types .note h6 {
+    margin-top: 0;
+  }
+
+  /* section-5 special-app */
+
+  .special-app .custom-space {
+    padding-top: 20px;
+  }
+  .buttons > .phase-white {
+    margin: 0 0 0 23px;
+    color: #fff;
+    border-color: #fff;
+  }
+  .buttons > .phase-blue {
+    color: #2d3cff;
+    border-color: #2d3cff;
+  }
+  .special-app .background-shape .buttons {
+    margin-top: 50px;
+  }
+  @media screen and (max-width: 991px) and (min-width: 768px) {
+    .special-app .section-bottom-space {
+      margin-bottom: 45px;
+    }
+    .special-app .three-color-text {
+      margin-bottom: 60px;
+    }
+    .special-app .three-color-empossing .buttons .phase-white,
+    .special-app .embroidery .buttons .phase-white {
+      margin:0;
+    }
+    .special-app .embroidery .buttons {
+      margin-top: 30px;
+      margin-bottom: 0;
+    }
+    .special-app .three-color-empossing .buttons .buttons-2,
+    .special-app .embroidery .buttons .buttons-2 {
+      padding: 10px 15px;
+    }
+    .img-bottom-space {
+      margin-bottom: 25px;
+    }
+  }
+  .special-app .right-shape {
+    margin-top: 2px;
+    padding-left: 0;
+  }
+  @media(max-width:991px) {
+    .special-app .right-shape {
+      margin-top: 30px;
+    }
+  }
+
+  /*section-6 placement*/
+
+  /* placement slider */
+  .placement .scale-title > h5 {
+    padding-top: 17px;
+  }
+
+  /* scale */
+  .placement .scale-img {
+    padding-top: 35px;
+  }
+
+  /* contrast slider */
+  .placement #contrast-slider-2-img {
+    margin-top: 20px;
+  }
+
+  /* section-7 animation */
+  @media(min-width:992px) {
+    .animation .anim-2d {
+      margin-bottom: 130px;
+    }
+  }
+  .img-with-text p {
+    margin: 20px 0 0 0;
+    color: #6d6d6d;
+  }
+  .animation .anim-3d .red-ref {
+    margin-top: 85px;
+    margin-bottom: 0;
+  }
+@media(max-width:991px) {
+  .animation .anim-3d .red-ref {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+/* section-8 screen */
+.screen .screen-use {
+  margin-bottom: 28px;
+}
+@media(min-width:992px) {
+  .screen .screen-1-img {
+    margin-top: 80px;
+  }
+}
+.screen .screen-ul {
+  list-style-type: none;
+  margin-bottom: 40px;
+}
+.screen .specialised .red-ref {
+  margin-bottom: 50px;
+}
+/* section-9 built-form */
+.built-form #built-form-slider-3-img .owl-carousel .slider-img {
+  padding:0 15px
+}
+.built-form .built-form-text {
+  margin-top: 50px;
+}
+
+/* section-10 cut-downs */
+
+@media(min-width:992px) {
+.cut-downs .cut-downs-img > img {
+  width: 73%;
+  margin-top: 57px;
+  margin-left: 33px;
+  }
+  .cut-downs .cut-downs-img-4 > img {
+    width: 70%;
+    margin: 40px 0 0 100px;
+  }
+  .cut-downs .cut-downs-img-5 > img {
+    width: 70%;
+    margin: 80px 0 0 100px;
+  }
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .cut-downs .cut-downs-img > img {
+    margin-top: 40px;
+  }
+}
+.cut-downs .cut-downs-2-img > img {
+  width: 80%;
+  margin-bottom: 42px;
+}
+.cut-downs .buttons .phase-blue {
+  margin: 65px 0 0 0;
+  float: right;
+}
+
+/* section-11 french-language */
+
+.french-language {
+  background-color: #18184a;
+}
+.french-language .section-title .red-ref {
+  font-family: 'WebbEllisCup-regular';
+  letter-spacing: 0.1px;
+  font-size: 22px;
+  font-weight: 900;
+  color: #fb2e01;
+  border-bottom: 4px solid #fb2e01;
+}
+.french-language .french-language-img {
+  margin-top: 55px;
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .french-language .french-language-img {
+    margin-top: 135px;
+  }
+}
+
+/* sectiom-12 app-examples*/
+
+.app-examples .section-title  {
+  margin-bottom: 0;
+}
+.app-examples #app-examples-slider-5-img .owl-theme .owl-nav.disabled + .owl-dots {
+  bottom: 20px;
+  position: absolute;
+  width: 100%;
+}
+.app-examples #app-examples-slider-5-img .owl-theme .owl-dots .owl-dot span {
+  width: 11px;
+  height: 11px;
+  background: #ffffff;
+}
+.app-examples #app-examples-slider-5-img .owl-theme .owl-dots .owl-dot.active span,
+.app-examples #app-examples-slider-5-img .owl-theme .owl-dots .owl-dot:hover span {
+  background: #2e3cff;
+}
+.app-examples .red-line {
+  position: absolute;
+  width: 98%;
+  top: 89px;
+}
+@media screen and (max-width: 580px) and (min-width: 320px) {
+  .app-examples .red-line {
+    top: 30px;
+    right: 1%;
+    left: 1%;
+  }
+}
+
+/*footer*/
+
+footer .img-with-text > p {
+  margin-top: 10px;
+}
+footer .arrow > img {
+  width: 60%;
+  float: right;
+}
+@media(max-width:480px) {
+  footer .arrow > img {
+    margin-top: 15px;
+  }
+}
+/* responsive */
+@media(max-width:767px) {
+  .mobile-bottom-space {
+    margin-bottom: 40px;
+  }
+  .mobile-img-bottom-space {
+    margin-bottom: 56px;
+  }
+  .mobile-no-left-padding {
+    padding-left:0!important
+  }
+  .mobile-no-right-padding {
+    padding-right:0!important
+  }
+  .mobile-no-padding {
+    padding:0!important
+  }
+  .mobile-no-bottom-margin {
+    margin-bottom: 0!important;
+  }
+  .section-bottom-space {
+    margin-bottom: 10px;
+  }
+}
